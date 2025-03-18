@@ -1,11 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time Table</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <style type="text/tailwindcss">
+        @theme {
+            --font-family: "Montserrat";
+            --font-family2: "Jockey One";
+            --font-family3: "inter";
+            --color-headers: #FFF2F2;
+            --color-hours: #00A9FF;
+            --color-bg1: #26ADFF;
+            --color-bg2: #91CAF6;
+            --color-text: #FFF2F2;
+            --color-text2: #00A9FF;
+        }
+    </style>
 </head>
-<body>
-    <div></div>
+
+<body class="font-[Montserrat]">
+    <h1>Emploi du Temps :  4ième ALL B</h1>
+    <div class="flex flex-row justify-center text-text mt-[30px]">
+        <div class="w-[150px] h-[50px] rounded-tl-[20px] border-white border-[1px] bg-bg1 flex items-center justify-center">Heures/jours</div>
+        <div class="w-[150px] h-[50px] border-white border-[1px] bg-bg1 flex items-center justify-center">Lundi</div>
+        <div class="w-[150px] h-[50px] border-white border-[1px] bg-bg1 flex items-center justify-center">Mardi</div>
+        <div class="w-[150px] h-[50px] border-white border-[1px] bg-bg1 flex items-center justify-center">Mercredi</div>
+        <div class="w-[150px] h-[50px] border-white border-[1px] bg-bg1 flex items-center justify-center">Jeudi</div>
+        <div class="w-[150px] h-[50px] rounded-tr-[20px] border-white border-[1px] bg-bg1 flex items-center justify-center">Vendredi</div>
+    </div>
+
+    <div class="flex flex-row justify-center text-text2 font-[Inter] font-[600]">
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-bg2 flex items-center justify-center ">07H - 08H</div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+    </div>
+
+    <div class="flex flex-row justify-center text-text2 font-[Inter] font-[600]">
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-bg2 flex items-center justify-center ">07H - 08H</div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+    </div>
+
+    <div class="flex flex-row justify-center text-text2 font-[Inter] font-[600]">
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-bg2 flex items-center justify-center ">07H - 08H</div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+    </div>
+
+    <div class="flex flex-row justify-center text-text2 font-[Inter] font-[600]">
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-bg2 flex items-center justify-center ">07H - 08H</div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+    </div>
+
+    <div class="flex flex-row justify-center text-text2 font-[Inter] font-[600]">
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-bg2 flex items-center justify-center ">07H - 08H</div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[60px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+    </div>
+
+    <div class="flex flex-row justify-center text-text2 font-[Inter] font-[600]">
+        <div class="w-[150px] h-[50px] rounded-bl-[20px] border-white border-[1px] bg-bg2 flex items-center justify-center ">07H - 08H</div>
+        <div class="w-[150px] h-[50px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[50px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[50px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[50px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center "></div>
+        <div class="w-[150px] h-[50px] rounded-br-[20px] border-white border-[1px] bg-[#EDF0FF] flex items-center justify-center"></div>
+    </div>
 </body>
+
 </html>
